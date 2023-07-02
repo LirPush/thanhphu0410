@@ -12,7 +12,7 @@ color: #fff;
 }
 
 .col{
-  height: 35px;
+  height: auto;
 }
 .nav{
   height: 35px;
@@ -33,7 +33,9 @@ color: #fff;
 {
   color: rosybrown;
 }
-
+.me-2{
+  margin-top: 25px !important;
+}
 
 .li{
   height: 35px;
