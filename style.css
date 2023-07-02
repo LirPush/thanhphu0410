@@ -2,7 +2,9 @@
   height: auto ;
 }
 
-
+Body{
+  min-width: 1366px;
+  }
 
 .top-header{
 background-color: #669933;
@@ -169,7 +171,7 @@ color: #fff;
   margin-top: 30px;
 }
 .background-image-example {
-  background-image: url('C:/Users/trant/OneDrive - hieuchauhoa/DEMO/imgs/ABC.jpg');
+  background-image: url('./imgs/abc.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -223,6 +225,6 @@ color: #fff;
   color: #fff;
   font-weight: bold;
 }
-.top-ft{
-
+.a{
+  text-decoration: none;
 }
