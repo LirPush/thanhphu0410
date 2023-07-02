@@ -1,0 +1,228 @@
+.header{
+  height: auto ;
+}
+
+
+
+.top-header{
+background-color: #669933;
+color: #fff;
+}
+
+.col{
+  height: 35px;
+}
+.nav{
+  height: 35px;
+}
+.nav-link {
+  color: #fff ;
+  height: 35px ;
+  padding: 0 0.75rem;
+}
+
+.form-control{
+    margin-top: 10%;
+}
+.btn{
+  margin-top: 10%;
+}
+.nav-link:hover
+{
+  color: rosybrown;
+}
+
+
+.li{
+  height: 35px;
+  display: flex;
+  position: absolute;
+  margin-top: 50%  ;
+  transform: translate(-50%, -50%);
+  
+}
+.ms-n5 {
+  margin-left: -40px;
+}
+.navbar-nav .nav-link {
+  margin-right: 10px;
+  padding: 10px;
+}
+.nvbr{
+  display: flex;
+  margin-left: auto;
+  padding-left: 35px;
+}
+.seach-r{
+
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.card-body{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Pattaya", sans-serif;
+  
+}
+.card{
+  border:2px solid #669933;
+  border-radius: 15px;
+  position: relative;
+}
+.card-title{
+  font-size: 35px;
+  color: #ffff;
+}
+.card-img-top{
+  border-radius: 15px;
+  transition: transform 0.3s;
+
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+.title-1{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+
+ 
+}
+
+
+.title-2{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+ 
+}
+
+.img-card{
+  height: auto;
+  width: 100%;
+
+}
+.test-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.name-product{
+  text-align: center;
+}
+.price{
+  text-align: center;
+}
+.btn-submit{
+ display: flex;
+ justify-content: center;
+ 
+
+}
+.card-product{
+  border: 1px solid #669933;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+  
+}
+.btn-submit button{
+  color: #fff;
+  background-color: #669933;
+  border-radius: 20px;
+  padding : 6px 50px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.btn-submit button:hover {
+  box-shadow: 10px 11px 22px 6px rgba(0, 0, 0, 0.5);
+}
+.dis-price{
+  margin-left: 10px;
+  color: red;
+}
+.card-deck{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sale{
+  color: #fff;
+  position: absolute;
+  line-height: 40px;
+  display: block; 
+  height: 40px;
+  width: 40px; 
+  text-align: center; 
+  background-color: red;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.extend{
+  margin-top: 30px;
+}
+.background-image-example {
+  background-image: url('C:/Users/trant/OneDrive - hieuchauhoa/DEMO/imgs/ABC.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: auto; /* Đặt chiều cao tùy ý */
+}
+.row .new-1{
+  border: solid 1px #fff;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+.img-new {
+  padding-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.lienhe{
+  border: solid 1px #669933;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.form-group{
+  width: 300px;
+  margin-left: 50%;
+  transform: translate(-50%,-0%);
+
+
+}
+.title-form{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+.name1{
+  margin-top: 20px;
+}
+.form-control {
+  margin-top: 0px;
+  background-color: antiquewhite;
+}
+.lienhe{
+  background-color: #fff;
+}
+.list-group{
+  border: none;
+}
+.title-ft-1{
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.top-ft{
+
+}
