@@ -239,3 +239,18 @@ color: #fff;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.banner-menu-1{
+  position: absolute;
+  margin-right: 50%;
+  transform: translate(55%,0);
+}
+.banner-menu-2{
+  position: relative;
+  margin-left: 50%;
+  transform: translate(-55%,0%);
+}
+.banner-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
