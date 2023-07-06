@@ -11,7 +11,10 @@
         integrity="sha512-...your-integrity-hash..." />
     <link href='https://fonts.googleapis.com/css?family=Pattaya' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link rel="stylesheet" href="./linhtinh/aos.css">
+    <link rel="stylesheet" href="./linhtinh/slick-style.css">
+    <link rel="stylesheet" href="./linhtinh/slick-theme.css">
+    <link rel="stylesheet" href="./linhtinh/slick.css">
 
     <link rel="stylesheet" href="style.css">
     <title>TEST Chơi Chơi</title>
@@ -23,24 +26,32 @@
         <div class="top-header">
             <div class="flex-col hide-for-medium flex-left">
                 <div class="container">
-                    <div class="row">
-                        <div class="col">
+                    <div class="row head-r">
+                        <div class="col head-t1">
                             <p class="html custom html_topbar_left"> Chuyên cung cấp thực phẩm sạch | Halona Fruist</p>
                         </div>
-                        <div class="col">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Tài khoản</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Thanh toán</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Cửa hàng</a>
-                                </li>
+                        <div class="col head-t2">
+                             <nav class="nav_pc">
+                                <ul class="nav justify-content-end nav-list">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Tài khoản</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Thanh toán</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Cửa hàng</a>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </nav>
+
                         </div>
+                        <label for="nav_mobi_input" class="nav_pc-btn">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                     
+                        
                     </div>
                 </div>
             </div>
@@ -136,16 +147,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100"
-                            src="./imgs/banner-traicay.jpg" alt="First slide">
+                        <img class="d-block w-100" src="./imgs/banner-traicay.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100"
-                            src="./imgs/banner-traicay.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="./imgs/banner-traicay.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100"
-                            src="./imgs/banner-traicay.jpg" alt="Third slide">
+                        <img class="d-block w-100" src="./imgs/banner-traicay.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -161,33 +169,54 @@
     </div>
 
     <div class="main">
-        <div class="categories">
+        <div class="categories" data-aos="fade-in">
             <div class="container">
                 <div class="card-deck">
                     <div class="card">
-                        <img class="card-img-top" src="./imgs/images.jpg"
-                            alt="Card image cap">
+                        <img class="card-img-top" src="./imgs/images.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="./imgs/images.jpg"
-                            alt="Card image cap">
+                        <img class="card-img-top" src="./imgs/images.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="./imgs/images.jpg"
-                            alt="Card image cap">
+                        <img class="card-img-top" src="./imgs/images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./imgs/images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./imgs/images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./imgs/images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="./imgs/images.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="categories-menu">
+            <div class="categories-menu" data-aos="fade-in" data-aos-duration="10000">
                 <div class="container-fluid" style="background-color: antiquewhite;">
                     <div class="container menu1">
                         <div class="title-1">
@@ -206,9 +235,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -235,9 +262,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -263,9 +288,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -291,9 +314,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -325,18 +346,18 @@
                     </div>
 
                 </div>
+
                 <div class="container-fluid menu2">
                     <div class="banner-menu">
-                        <div class="banner-menu-1">
-                            <img width="526.500px" height="370.656px"
-                                src="./imgs/banner-main-002-5.jpg">
+                        <div class="banner-menu-1" data-aos="fade-right" data-aos-duration="4000">
+                            <img src="./imgs/banner-main-002-5.jpg">
                         </div>
-                        <div class="banner-menu-2">
-                            <img width="526.500px" height="370.656px"
-                                src="./imgs/banner-main-003-2.png">
+                        <div class="banner-menu-2" data-aos="fade-left" data-aos-duration="4000">
+                            <img src="./imgs/banner-main-003-2.png">
                         </div>
                     </div>
                 </div>
+
                 <div class="container-fluid" style="background-color: antiquewhite;">
                     <div class="container menu1">
                         <div class="title-1">
@@ -355,9 +376,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -384,9 +403,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -412,9 +429,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -440,9 +455,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -492,9 +505,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -521,9 +532,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -549,9 +558,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -577,9 +584,7 @@
                                     </div>
                                     <div class="img-card">
                                         <a href="#" style=" text-decoration: none; color: #000000;">
-                                            <img class="card-img-top"
-                                                src="./imgs/hoa-qua-2.jpg"
-                                                alt="Card image cap">
+                                            <img class="card-img-top" src="./imgs/hoa-qua-2.jpg" alt="Card image cap">
                                         </a>
                                     </div>
                                     <div class="test-card">
@@ -622,92 +627,93 @@
                         <div class="title-3">
                             <h3> TIN TỨC</h3>
                         </div>
-                        <a href="#" style=" text-decoration: none; color: #000000;">
-                            <div class="row new-1">
-                                <div class="img-new col-4">
-                                    <img src="./imgs/abc1.jpg " width="240"
-                                        height="auto">
-                                </div>
-                                <div class="text-new col-8">
-                                    <h5>tiêu đề</h5>
-                                    <div class="date">a/a/a</div>
-                                    <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
-                                        nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng, dễ
-                                        quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
+                        <div class="list-news">
+                            <a href="#" style=" text-decoration: none; color: #000000;">
+                                <div class="row new-1">
+                                    <div class="img-new col-4">
+                                        <img src="./imgs/abc1.jpg " width="240" height="auto">
+                                    </div>
+                                    <div class="text-new col-8">
+                                        <h5>tiêu đề</h5>
+                                        <div class="date">a/a/a</div>
+                                        <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
+                                            nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng,
+                                            dễ
+                                            quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" style=" text-decoration: none; color: #000000;">
-                            <div class="row new-1">
-                                <div class="img-new col-4">
-                                    <img src="./imgs/abc1.jpg " width="240"
-                                        height="auto">
-                                </div>
-                                <div class="text-new col-8">
-                                    <h5>tiêu đề</h5>
-                                    <div class="date">a/a/a</div>
-                                    <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
-                                        nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng, dễ
-                                        quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
+                            </a>
+                            <a href="#" style=" text-decoration: none; color: #000000;">
+                                <div class="row new-1">
+                                    <div class="img-new col-4">
+                                        <img src="./imgs/abc1.jpg " width="240" height="auto">
+                                    </div>
+                                    <div class="text-new col-8">
+                                        <h5>tiêu đề</h5>
+                                        <div class="date">a/a/a</div>
+                                        <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
+                                            nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng,
+                                            dễ
+                                            quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" style=" text-decoration: none; color: #000000;">
-                            <div class="row new-1">
-                                <div class="img-new col-4">
-                                    <img src="./imgs/abc1.jpg " width="240"
-                                        height="auto">
-                                </div>
-                                <div class="text-new col-8">
-                                    <h5>tiêu đề</h5>
-                                    <div class="date">a/a/a</div>
-                                    <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
-                                        nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng, dễ
-                                        quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
+                            </a>
+                            <a href="#" style=" text-decoration: none; color: #000000;">
+                                <div class="row new-1">
+                                    <div class="img-new col-4">
+                                        <img src="./imgs/abc1.jpg " width="240" height="auto">
+                                    </div>
+                                    <div class="text-new col-8">
+                                        <h5>tiêu đề</h5>
+                                        <div class="date">a/a/a</div>
+                                        <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
+                                            nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng,
+                                            dễ
+                                            quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" style=" text-decoration: none; color: #000000;">
-                            <div class="row new-1">
-                                <div class="img-new col-4">
-                                    <img src="./imgs/abc1.jpg " width="240"
-                                        height="auto">
-                                </div>
-                                <div class="text-new col-8">
-                                    <h5>tiêu đề</h5>
-                                    <div class="date">a/a/a</div>
-                                    <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
-                                        nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng, dễ
-                                        quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
+                            </a>
+                            <a href="#" style=" text-decoration: none; color: #000000;">
+                                <div class="row new-1">
+                                    <div class="img-new col-4">
+                                        <img src="./imgs/abc1.jpg " width="240" height="auto">
+                                    </div>
+                                    <div class="text-new col-8">
+                                        <h5>tiêu đề</h5>
+                                        <div class="date">a/a/a</div>
+                                        <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
+                                            nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng,
+                                            dễ
+                                            quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" style=" text-decoration: none; color: #000000;">
-                            <div class="row new-1">
-                                <div class="img-new col-4">
-                                    <img src="./imgs/abc1.jpg " width="240"
-                                        height="auto">
-                                </div>
-                                <div class="text-new col-8">
-                                    <h5>tiêu đề</h5>
-                                    <div class="date">a/a/a</div>
-                                    <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
-                                        nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng, dễ
-                                        quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
+                            </a>
+                            <a href="#" style=" text-decoration: none; color: #000000;">
+                                <div class="row new-1">
+                                    <div class="img-new col-4">
+                                        <img src="./imgs/abc1.jpg " width="240" height="auto">
+                                    </div>
+                                    <div class="text-new col-8">
+                                        <h5>tiêu đề</h5>
+                                        <div class="date">a/a/a</div>
+                                        <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn của rất
+                                            nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản, dễ trồng,
+                                            dễ
+                                            quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-
+                            </a>
+                        </div>
                     </div>
                     <div class="col-4">
                         <div class="lienhe">
@@ -734,13 +740,21 @@
                                 </div>
                             </form>
                         </div>
-
+                        <iframe width="350" height="315" src="https://www.youtube.com/embed/1Sb-UJp-b5s"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftopweb.com.vn&amp;tabs=timeline&amp;width=340&amp;height=300&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=948110208640186"
+                            width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer container-fluid" style="background-color: aqua;" >
+    
+    <div class="footer container-fluid">
         <div class="top-ft container ">
             <div class="row ">
                 <div class="col">
@@ -755,7 +769,8 @@
                             <span>Về chúng tôi</span>
                         </div>
                         <div class="mota-title">
-                            <p>Chuyên cung cấp các loại hoa quả nhập khẩu, nội địa và các loại thực phẩm từ thiên nhiên.
+                            <p>Chuyên cung cấp các loại hoa quả nhập khẩu, nội địa và các loại thực phẩm từ thiên
+                                nhiên.
                             </p>
                         </div>
                     </div>
@@ -792,16 +807,21 @@
                         </div>
                         <div class="row mota-title">
                             <div class="col-12 col-mota">
-                                <a href="#" style=" text-decoration: none; color: #000000; " > Kỹ thuật trồng rau sạch trong chậu xốp tại nhà đơn giản</a>
+                                <a href="#" style=" text-decoration: none; color: #000000; "> Kỹ thuật trồng rau
+                                    sạch
+                                    trong chậu xốp tại nhà đơn giản</a>
                             </div>
                             <div class="col-12 col-mota">
-                                <a href="#" style=" text-decoration: none; color: #000000;"> Kỹ thuật trồng rau sạch trong chậu xốp tại nhà đơn giản</a>
+                                <a href="#" style=" text-decoration: none; color: #000000;"> Kỹ thuật trồng rau sạch
+                                    trong chậu xốp tại nhà đơn giản</a>
                             </div>
                             <div class="col-12 col-mota">
-                                <a href="#" style=" text-decoration: none; color: #000000;"> Kỹ thuật trồng rau sạch trong chậu xốp tại nhà đơn giản</a>
+                                <a href="#" style=" text-decoration: none; color: #000000;"> Kỹ thuật trồng rau sạch
+                                    trong chậu xốp tại nhà đơn giản</a>
                             </div>
                             <div class="col-12 col-mota">
-                                <a href="#" style=" text-decoration: none; color: #000000;"> Kỹ thuật trồng rau sạch trong chậu xốp tại nhà đơn giản</a>
+                                <a href="#" style=" text-decoration: none; color: #000000;"> Kỹ thuật trồng rau sạch
+                                    trong chậu xốp tại nhà đơn giản</a>
                             </div>
 
                         </div>
@@ -832,28 +852,76 @@
 
             </div>
         </div>
-      
     </div>
-    <div class="bot-ft container-fluid " style="background-color: #15ff00">
+    <div class="ft-lienhe container-fluid ">
         <div class="container">
             Copyright 2023 © Thiết kế website Hà Nội bởi Topweb.com.vn
         </div>
-       
+
     </div>
 
+    <input type="checkbox" name="" class="nav_input" id="nav_mobi_input">
+
+    <label for="nav_mobi_input" class="nav__overlay"></label>
+
+    <label for="nav_mobi_input"class="nav_mobi">
+        <label for="nav_mobi_input" class="nav_mobile_close">
+            <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <ul class="nav-list-mobi">
+            <li class="nav-item-mobi">
+                <a class="nav-link-mobi" href="#">Tài khoản</a>
+            </li>
+            <li class="nav-item-mobi">
+                <a class="nav-link-mobi" href="#">Thanh toán</a>
+            </li>
+            <li class=" nav-item-mobi">
+                <a class="nav-link-mobi" href="#">Cửa hàng</a>
+            </li>
+
+        </ul>
+    </label>
 
 
+    <script src="./linhtinh/jquery.min.js"></script>
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <script src="./linhtinh/aos.js"></script>
+    <script src="./linhtinh/slick.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $('.card-deck').slick({
+            infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            speed: 300
+        });
+    </script>
+    <script>
+        $('.list-news').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            speed: 300,
+            vertical: true,
+            verticalSwiping: true
+
+        });
+    </script>
+
 </body>
 
 </html>

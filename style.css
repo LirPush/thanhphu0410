@@ -1,87 +1,105 @@
-.header{
-  height: auto ;
+.header {
+  height: auto;
+  
 }
 
-Body{
+.slides{
+  position: relative;
+}
+
+Body {
   min-width: 1366px;
-  }
-
-.top-header{
-background-color: #669933;
-color: #fff;
 }
 
-.col{
+.top-header {
+  background-color: #669933;
+  color: #fff;
+  
+}
+
+.col {
   height: auto;
 }
-.nav{
+
+.nav {
   height: 35px;
 }
+
 .nav-link {
-  color: #fff ;
-  height: 35px ;
+  color: #fff;
+  height: 35px;
   padding: 0 0.75rem;
 }
 
-.form-control{
-    margin-top: 10%;
-}
-.btn{
+.form-control {
   margin-top: 10%;
 }
-.nav-link:hover
-{
+
+.btn {
+  margin-top: 10%;
+}
+
+.nav-link:hover {
   color: rosybrown;
 }
-.me-2{
+
+.me-2 {
   margin-top: 25px !important;
 }
 
-.li{
+.li {
   height: 35px;
   display: flex;
   position: absolute;
-  margin-top: 50%  ;
+  margin-top: 50%;
   transform: translate(-50%, -50%);
-  
+
 }
+
 .ms-n5 {
   margin-left: -40px;
 }
+
 .navbar-nav .nav-link {
   margin-right: 10px;
   padding: 10px;
 }
-.nvbr{
+
+.nvbr {
   display: flex;
   margin-left: auto;
   padding-left: 35px;
 }
-.seach-r{
+
+.seach-r {
 
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.card-body{
+
+.card-body {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Pattaya", sans-serif;
-  
+
 }
-.card{
-  border:2px solid #669933;
+
+.card {
+  border: 2px solid #669933;
   border-radius: 15px;
   position: relative;
 }
-.card-title{
+
+.card-title {
   font-size: 35px;
   color: #ffff;
 }
-.card-img-top{
+
+.card-img-top {
   border-radius: 15px;
   transition: transform 0.3s;
 
@@ -90,56 +108,63 @@ color: #fff;
 .card:hover img {
   transform: scale(1.1);
 }
-.title-1{
+
+.title-1 {
   display: flex;
   justify-content: center;
   font-size: 50px;
 
- 
+
 }
 
 
-.title-2{
+.title-2 {
   display: flex;
   justify-content: center;
   font-size: 20px;
- 
+
 }
 
-.img-card{
+.img-card {
   height: auto;
   width: 100%;
 
 }
-.test-card{
+
+.test-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.name-product{
+
+.name-product {
   text-align: center;
 }
-.price{
+
+.price {
   text-align: center;
 }
-.btn-submit{
- display: flex;
- justify-content: center;
- 
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+
 
 }
-.card-product{
+
+.card-product {
   border: 1px solid #669933;
   border-radius: 10px;
   background-color: #fff;
   position: relative;
-  
+
 }
-.btn-submit button{
+
+.btn-submit button {
   color: #fff;
   background-color: #669933;
   border-radius: 20px;
-  padding : 6px 50px;
+  padding: 6px 50px;
   border: none;
   margin-bottom: 10px;
 }
@@ -147,110 +172,236 @@ color: #fff;
 .btn-submit button:hover {
   box-shadow: 10px 11px 22px 6px rgba(0, 0, 0, 0.5);
 }
-.dis-price{
+
+.dis-price {
   margin-left: 10px;
   color: red;
 }
-.card-deck{
+
+.card-deck {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.sale{
+
+.sale {
   color: #fff;
   position: absolute;
   line-height: 40px;
-  display: block; 
+  display: block;
   height: 40px;
-  width: 40px; 
-  text-align: center; 
+  width: 40px;
+  text-align: center;
   background-color: red;
   border-radius: 50%;
   margin-top: 10px;
   margin-left: 10px;
 }
 
-.extend{
+.extend {
   margin-top: 30px;
 }
+
 .background-image-example {
   background-image: url('./imgs/abc.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: auto; /* Đặt chiều cao tùy ý */
+  height: auto;
+  /* Đặt chiều cao tùy ý */
 }
-.row .new-1{
+
+.row .new-1 {
   border: solid 1px #fff;
   background-color: #fff;
   margin-top: 20px;
   margin-bottom: 20px;
- 
+
 }
+
 .img-new {
   padding-left: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.lienhe{
+
+.lienhe {
   border: solid 1px #669933;
   border-radius: 20px;
   margin-top: 50px;
 }
-.form-group{
+
+.form-group {
   width: 300px;
   margin-left: 50%;
-  transform: translate(-50%,-0%);
+  transform: translate(-50%, -0%);
 
 
 }
-.title-form{
+
+.title-form {
   font-weight: bold;
   text-align: center;
   margin-top: 15px;
 }
-.name1{
+
+.name1 {
   margin-top: 20px;
 }
+
 .form-control {
   margin-top: 0px;
   background-color: antiquewhite;
 }
-.lienhe{
+
+.lienhe {
   background-color: #fff;
 }
-.list-group{
+
+.list-group {
   border: none;
 }
-.title-ft-1{
+
+.title-ft-1 {
   font-size: 30px;
   color: #000;
   font-weight: bold;
 }
-.a{
+
+.a {
   text-decoration: none;
 }
-.footer{
+
+.footer {
   padding-top: 20px;
+  background-color: rgb(250, 255, 196);
 }
-.title-3{
+
+.title-3 {
   font-weight: 125% bold;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.banner-menu-1{
-  position: absolute;
-  margin-right: 50%;
-  transform: translate(55%,0);
+
+.banner-menu-1 {
+  margin-right: -5%;
+
+
 }
-.banner-menu-2{
-  position: relative;
-  margin-left: 50%;
-  transform: translate(-55%,0%);
+
+.banner-menu-2 {
+  margin-left: -5%;
+
+
 }
-.banner-menu{
+
+.banner-menu {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ft-lienhe {
+  width: 100%;
+
+  background-color: #15ff00
+}
+.carousel-item{
+  position: relaftive;
+}
+.nav_pc-btn{
+  width: 28px;
+  height: 28px;
+  display: none;
+
+}
+.nav__overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  animation: fadeIn linear 0.5s;
+}
+.nav_mobi{
+  position: fixed ;
+  width: 450px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 450px;
+  background-color: #bbf6b5;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all linear 0.3s;
+
+
+}
+.nav-list-mobi{
+  margin-top: 35px;
+
+}
+.nav-link-mobi{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 8px 0;
+  font-size: 1.2rem;
+
+}
+.nav_mobi_input{
+  display: none;
+}
+.nav_mobile_close{
+  font-size: 1,4rem;
+  width: 40px;
+  height: 40px;
+  color: #000;
+  position: absolute;
+  top: 0.8rem;
+  right:  0.8rem;
+}
+.nav_input{
+  display: none;
+}
+.nav_input:checked ~ .nav__overlay{
+  display: block;
+}
+
+.nav_input:checked ~ .nav_mobi{
+  transform: translateX(0%);
+  opacity: 1;
+}
+/*mobile+table*/
+@media only screen and (max-width: 63.975em) {
+  .nav_pc-btn{  
+    margin-top: 1%; 
+    display: block; 
+  }
+  .head-t2{
+    display: none;
+  }
+}
+/*mobile*/
+@media only screen and (max-width: 45.1875em) {
+  
+}
+/*table*/
+@media only screen and (min-width: 46.25em) and (max-width:63.975em){
+  
+}
+/*pc*/
+@media only screen and (min-width: 64em) {
+  
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
