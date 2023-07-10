@@ -12,198 +12,85 @@
     <link rel="stylesheet" href="./linhtinh/slick.css">
 
     <link rel="stylesheet" href="./linhtinh/bootstrap.css">
-    <link rel="stylesheet" href="style.css">    
-    <!-- <link rel="stylesheet" href="media.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./linhtinh/mmenu.css">
+    <link rel="stylesheet" href="media.css">
 
 
     <title>Document</title>
 </head>
 
 <body>
-    <div class="category-test">
-        <div class=" ">
-            <img class="" src="./imgs/images.jpg" alt="Card image cap">
+    <div class="menu-res">
 
-        </div>
-        <div class=" ">
-            <img class="" src="./imgs/images.jpg" alt="Card image cap">
+        <div class="menu-bar-res">
 
-        </div>
-        <div class=" ">
-            <img class="" src="./imgs/images.jpg" alt="Card image cap">
+            <a id="hamburger" href="#menu" title="Menu"><span></span></a>
 
-        </div>
-        <div class=" ">
-            <img class="" src="./imgs/images.jpg" alt="Card image cap">
+            <div class="search-res">
 
-        </div>
-        <div class=" ">
-            <img class="" src="./imgs/images.jpg" alt="Card image cap">
+                <div class="search-grid ">
 
-        </div>
-        <div class=" ">
-            <img class="" src="./imgs/images.jpg" alt="Card image cap">
+                    <input type="text" name="keyword2" id="keyword2" onkeypress="doEnter(event,'keyword2');" />
 
-        </div>
+                    <p onclick="onSearch('keyword2');"><i class="fa fa-search"></i></p>
 
-    </div>
-    <div class="list-news row m-0">
-        <a class="new-1 row col-xl-12   col-sm-4  col-12 "href ="#" style=" text-decoration: none; color: #000000;">           
-                <div class="img-new col-xl-4 col-sm-12 col-12 m-0">
-                    <img src="./imgs/abc1.jpg " width="240" height="100%">
                 </div>
 
-                <div class="text-new col-xl-8 col-sm-12 col-12 m-0">
-                    <h5>tiêu đề</h5>
-                    <div class="date">a/a/a</div>
-                    <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn
-                        của rất
-                        nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản,
-                        dễ trồng,
-                        dễ
-                        quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
-                    </div>
-                </div>
-        </a> 
-        <a class="new-1 row col-xl-12   col-sm-4  col-12 "href ="#" style=" text-decoration: none; color: #000000;">           
-            <div class="img-new col-xl-4 col-sm-12 col-12 m-0">
-                <img src="./imgs/abc1.jpg " width="240" height="100%">
             </div>
 
-            <div class="text-new col-xl-8 col-sm-12 col-12 m-0">
-                <h5>tiêu đề</h5>
-                <div class="date">a/a/a</div>
-                <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn
-                    của rất
-                    nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản,
-                    dễ trồng,
-                    dễ
-                    quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
-                </div>
-            </div>
-    </a> 
-    <a class="new-1 row col-xl-12   col-sm-4  col-12 "href ="#" style=" text-decoration: none; color: #000000;">           
-        <div class="img-new col-xl-4 col-sm-12 col-12 m-0">
-            <img src="./imgs/abc1.jpg " width="240" height="100%">
         </div>
 
-        <div class="text-new col-xl-8 col-sm-12 col-12 m-0">
-            <h5>tiêu đề</h5>
-            <div class="date">a/a/a</div>
-            <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn
-                của rất
-                nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản,
-                dễ trồng,
-                dễ
-                quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
-            </div>
-        </div>
-</a> 
-<a class="new-1 row col-xl-12   col-sm-4  col-12 "href ="#" style=" text-decoration: none; color: #000000;">           
-    <div class="img-new col-xl-4 col-sm-12 col-12 m-0">
-        <img src="./imgs/abc1.jpg " width="240" height="100%">
-    </div>
+        <nav id="menu">
 
-    <div class="text-new col-xl-8 col-sm-12 col-12 m-0">
-        <h5>tiêu đề</h5>
-        <div class="date">a/a/a</div>
-        <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn
-            của rất
-            nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản,
-            dễ trồng,
-            dễ
-            quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
-        </div>
-    </div>
-</a> 
+            <ul>
 
-       
+                <li class="nav-item ">
+
+                    <a class="a-img" href="">TRANG CHỦ</a>
+
+                </li>
+
+                <li class="nav-item  ">
+
+                    <a class="a-img has-mega" href="dich-vu">SẢN PHẨM</a>
+
+                </li>
+
+                <li class="nav-item ">
+
+                    <a class="a-img" href="gioi-thieu">GIỚI THIỆU</a>
+
+                </li>
+
+                <li class="nav-item  ">
+
+                    <a class="a-img has-mega" href="dich-vu">BLOGS</a>
+
+                </li>
+
+                <li class="nav-item ">
+
+                    <a class="a-img" href="lien-he">LIÊN HỆ</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
 
     </div>
-</div>
     <script src="./linhtinh/jquery.min.js"></script>
-  <script src="./linhtinh/bootstrap.js"></script>
-
-              <script src="./linhtinh/bootstrap.js"></script>
-
+    <script src="./linhtinh/bootstrap.js"></script>
+    <script src="./linhtinh/bootstrap.js"></script>
     <script src="./linhtinh/aos.js"></script>
     <script src="./linhtinh/slick.js"></script>
+    <script src="./linhtinh/mmenu.js"></script>
+
     <script>
-        $('.category-test').slick({
-            infinite: true,
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: false,
-            autoplaySpeed: 1000,
-            speed: 300,
-            responsive: [
+      $('#menu').mmenu();
 
-            {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-
-                    }
-                },
-
-                {
-                    breakpoint: 700,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-
-                    }
-                },
-                {
-                    breakpoint: 500,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-
-                    }
-                },
-            ]
-        });
     </script>
-        <script>
-            $('.list-news').slick({
-                infinite: true,
-                slidesToShow: 6,
-                slidesToScroll: 1,
-                autoplay: false,
-                autoplaySpeed: 1000,
-                speed: 300,
-                responsive: [
-    
-                {
-                        breakpoint: 1200,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1,
-    
-                        }
-                    },
-    
-                    {
-                        breakpoint: 700,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-    
-                        }
-                    },
-                    {
-                        breakpoint: 500,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-    
-                        }
-                    },
-                ]
-            });
-        </script>
 
 </body>
 

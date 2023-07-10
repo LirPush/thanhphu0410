@@ -34,6 +34,7 @@
     }
 
     .nvbr {
+        display: none;
         align-items: center;
     }
 
@@ -41,6 +42,20 @@
         position: absolute;
         right: 0;
 
+    }
+   .head-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   }
+   
+    .nav-search-pc1{
+        display: none;
+    }
+    .menu-res{
+        display:block;
     }
 
 }

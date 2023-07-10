@@ -20,11 +20,12 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="./linhtinh/mmenu.css">
 
     <title>TEST Chơi Chơi</title>
 </head>
 
-<body>
+<body class="mm-wrapper">
     <div class="wap_load" style="display: block;">
         <!-- <div class="cssload-thecube">
             <div class="loader"></div>
@@ -40,7 +41,90 @@
                 stroke-dasharray="0 440" stroke-linecap="round"></circle>
         </svg>
     </div>
+    <div class="menu-res">
 
+        <div class="menu-bar-res">
+
+            <a id="hamburger" href="#menu" title="Menu"><span></span></a>
+
+            <div class="search-res">
+
+                <div class="search-grid ">
+
+                    <input type="text" name="keyword2" id="keyword2" onkeypress="doEnter(event,'keyword2');" />
+
+                    <p onclick="onSearch('keyword2');"><i class="fa fa-search"></i></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav id="menu">
+
+            <ul>
+
+                <li class="nav-item ">
+
+                    <a class="a-img" href="">TRANG CHỦ</a>
+
+                </li>
+
+                <li class="nav-item  ">
+
+                    <a class="a-img has-mega" href="#">SẢN PHẨM</a>
+
+                    <ul>
+                        <li class="nav-item ">
+
+                            <a class="a-img" href="#">GIỚI THIỆU</a>
+
+                        </li>
+
+                        <li class="nav-item  ">
+
+                            <a class="a-img has-mega" href="#">BLOGS</a>
+                            <ul>
+                                <li class="nav-item ">
+
+                                    <a class="a-img" href="#">GIỚI THIỆU</a>
+
+                                </li>
+
+                                <li class="nav-item  ">
+
+                                    <a class="a-img has-mega" href="#">BLOGS</a>
+
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item ">
+
+                    <a class="a-img" href="gioi-thieu">GIỚI THIỆU</a>
+
+                </li>
+
+                <li class="nav-item  ">
+
+                    <a class="a-img has-mega" href="dich-vu">BLOGS</a>
+
+                </li>
+
+                <li class="nav-item ">
+
+                    <a class="a-img" href="lien-he">LIÊN HỆ</a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
     <div class="header">
 
         <div class="top-header">
@@ -81,8 +165,8 @@
             <div class="container-fluid menu">
 
                 <div class="container">
-                    <div class="row">
-                        <div class=" col-lg-2 col-sm-4 logo">
+                    <div class="row head-2">
+                        <div class=" col-lg-2 col-sm-4 logo w-100 d-flex justify-content-center">
                             <div class="logo-header">
                                 <a href="#" style=" text-decoration: none; color: #000000;">
                                     <img width="100%" height="90px"
@@ -941,6 +1025,12 @@
             </div>
 
         </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10771.275626584904!2d106.73028055273676!3d10.749092279046847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317525fec6f30603%3A0xc648cbd23b70e2b1!2zQuG6sE5HIEzDgUkgQTEgS0hVIENI4bq-IFhV4bqkVCBUw4JOIFRIVeG6rE4!5e0!3m2!1svi!2s!4v1689004256741!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
         <input type="checkbox" name="" class="nav_input" id="nav_mobi_input">
         <label for="nav_mobi_input" class="nav__overlay"></label>
@@ -949,7 +1039,7 @@
                 <i class="fa-solid fa-xmark"></i>
             </label>
 
-            <ul class="nav-list-mobi">
+            <ul class="nav-list-    ">
                 <li class="nav-item-mobi">
                     <a class="nav-link-mobi" href="#">Tài khoản</a>
                 </li>
@@ -959,7 +1049,6 @@
                 <li class=" nav-item-mobi">
                     <a class="nav-link-mobi" href="#">Cửa hàng</a>
                 </li>
-
             </ul>
         </label>
 
@@ -967,10 +1056,17 @@
         <script src="./linhtinh/jquery.min.js"></script>
 
 
-        <!-- <script src="./linhtinh/bootstrap.js"></script> -->
+        <script src="./linhtinh/bootstrap.js"></script>
 
         <script src="./linhtinh/aos.js"></script>
         <script src="./linhtinh/slick.js"></script>
+        <script src="./linhtinh/mmenu.js"></script>
+
+        <script>
+            $('#menu').mmenu();
+
+
+        </script>
         <script>
             AOS.init();
         </script>
@@ -999,37 +1095,37 @@
             //                 slidesToShow: 2,
             //                 slidesToScroll: 1,
             //             }
-                       
+
             //         },
-                   
+
             //     ]
             // });
             $('.card-deck-1').slick({
-        lazyLoad: 'progressive', infinite: false, accessibility:true, vertical:false, slidesToShow: 3, 
-        slidesToScroll: 1, autoplay:true, autoplaySpeed:3000,  speed:1000, arrows:false, centerMode:false,
-        dots:false,  draggable:true, responsive: [
-            {
-              breakpoint: 961,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                variableWidth:false,
-                centerMode:false,
-                arrows:false,
-              }
-            },
-            {
-              breakpoint: 561,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                variableWidth:false,
-                centerMode:false,
-                arrows:false,
-              }
-            }
-        ]
-    });
+                lazyLoad: 'progressive', infinite: false, accessibility: true, vertical: false, slidesToShow: 3,
+                slidesToScroll: 1, autoplay: true, autoplaySpeed: 3000, speed: 1000, arrows: false, centerMode: false,
+                dots: false, draggable: true, responsive: [
+                    {
+                        breakpoint: 961,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            variableWidth: false,
+                            centerMode: false,
+                            arrows: false,
+                        }
+                    },
+                    {
+                        breakpoint: 561,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            variableWidth: false,
+                            centerMode: false,
+                            arrows: false,
+                        }
+                    }
+                ]
+            });
 
             $('.list-news').slick({
                 infinite: true,
@@ -1065,7 +1161,7 @@
             });
 
         </script>
-       
+
         <script>
             $(document).ready(function () {
                 setTimeout(function () {
