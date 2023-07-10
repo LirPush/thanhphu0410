@@ -46,7 +46,9 @@
 .me-2 {
   margin-top: 25px !important;
 }
-
+.nav-item{
+  white-space: nowrap;
+}
 .li {
   height: 35px;
   display: flex;
@@ -83,7 +85,9 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
+.banner-menu{
+  max-width: 100%;
+}
 .card-body {
   position: absolute;
   top: 50%;
