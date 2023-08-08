@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="stylesheet" href="./linhtinh/aos.css">
-    <link rel="stylesheet" href="./linhtinh/slick-style.css">
-    <link rel="stylesheet" href="./linhtinh/slick-theme.css">
-    <link rel="stylesheet" href="./linhtinh/slick.css">
-
-    <link rel="stylesheet" href="./linhtinh/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./linhtinh/mmenu.css">
-    <link rel="stylesheet" href="media.css">
-
-
-    <title>Document</title>
-</head>
-
-<body>
-    <div class="menu-res">
+<div class="menu-res">
 
         <div class="menu-bar-res">
 
@@ -53,8 +30,33 @@
 
                 <li class="nav-item  ">
 
-                    <a class="a-img has-mega" href="dich-vu">SẢN PHẨM</a>
+                    <a class="a-img has-mega" href="#">SẢN PHẨM</a>
 
+                    <ul>
+                        <li class="nav-item ">
+
+                            <a class="a-img" href="#">GIỚI THIỆU</a>
+
+                        </li>
+
+                        <li class="nav-item  ">
+
+                            <a class="a-img has-mega" href="#">BLOGS</a>
+                            <ul>
+                                <li class="nav-item ">
+
+                                    <a class="a-img" href="#">GIỚI THIỆU</a>
+
+                                </li>
+
+                                <li class="nav-item  ">
+
+                                    <a class="a-img has-mega" href="#">BLOGS</a>
+
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
 
                 <li class="nav-item ">
@@ -80,18 +82,3 @@
         </nav>
 
     </div>
-    <script src="./linhtinh/jquery.min.js"></script>
-    <script src="./linhtinh/bootstrap.js"></script>
-    <script src="./linhtinh/bootstrap.js"></script>
-    <script src="./linhtinh/aos.js"></script>
-    <script src="./linhtinh/slick.js"></script>
-    <script src="./linhtinh/mmenu.js"></script>
-
-    <script>
-      $('#menu').mmenu();
-
-    </script>
-
-</body>
-
-</html>
